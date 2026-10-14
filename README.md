@@ -1,14 +1,16 @@
-# Retro Learning Dashboard 🎨
+# React + Vite
 
-A modern-retro online learning platform dashboard inspired by neobrutalist and playful comic-style aesthetics. Built with **React**, **Tailwind CSS**, and interactive state management.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-### ✨ Features
-* **Neobrutalism UI**: Bold black borders, warm pastel palettes, and distinct card styling.
-* **3-Panel Layout**: Left navigation sidebar, dynamic center course explorer, and right user activity panel with live progress trackers.
-* **Interactive Elements**: Category filtering, real-time course search, and detail modal preview.
-* **Fully Responsive**: Adapts smoothly across mobile, tablet, and desktop views.
+Currently, two official plugins are available:
 
-### 🛠️ Tech Stack
-* **Framework**: React / Vite
-* **Styling**: Tailwind CSS
-* **Icons**: Lucide React / Custom SVG
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.

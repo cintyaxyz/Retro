@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Fraunces', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', serif;
+  
+  --color-retro-cream: #FAF5EA;
+  --color-retro-paper: #FFFDF9;
+  --color-retro-beige: #F4EEDB;
+  --color-retro-sidebar: #FAF5EA;
+  --color-retro-card: #FFFFFF;
+  --color-retro-dark: #1C1E21;
+  --color-retro-muted: #5B616E;
+  --color-retro-pink: #FBD5E0;
+  --color-retro-pink-text: #9B2249;
+  --color-retro-mint: #CEF0E5;
+  --color-retro-mint-text: #145943;
+  --color-retro-yellow: #FEE78A;
+  --color-retro-blue: #D4E5FF;
+}
+
+body {
+  margin: 0;
+  background-color: #FAF5EA;
+  color: #1C1E21;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom retro scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D2C5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B0A2;
+}
+
+/* Retro shadow utility */
+.retro-shadow-sm {
+  box-shadow: 2px 2px 0px rgba(28, 30, 33, 0.9);
+}
+.retro-shadow {
+  box-shadow: 3px 3px 0px rgba(28, 30, 33, 0.9);
+}
+.retro-shadow-lg {
+  box-shadow: 4px 4px 0px rgba(28, 30, 33, 0.9);
+}
+.retro-shadow-hover:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px rgba(28, 30, 33, 0.9);
+}
+.retro-shadow-hover:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px rgba(28, 30, 33, 0.9);
+}
